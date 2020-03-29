@@ -4,7 +4,7 @@
 <small>Yet Another Minimal Barebone CSS Framework</small>
 
 [![license](https://img.shields.io/badge/license-BOML-green?style=flat-square)](LICENSE.md)
-[![version](https://img.shields.io/github/v/tag/runxel/yamb-css)](https://github.com/runxel/yamb-css/releases)
+[![version](https://img.shields.io/github/v/tag/runxel/yamb-css?style=flat-square)](https://github.com/runxel/yamb-css/releases)
 </div>
 
 > YAMB is a «no bullshit» CSS boilerplate ready to use in your projects.
@@ -39,5 +39,4 @@ A user called _dohliam_ made a fine [website](https://dohliam.github.io/dropin-m
 _Chef's recommendations: Sakura CSS & and Water CSS._
 
 
-![Imgur](https://i.imgur.com/NX391J6.gifv)
-
+![How CSS works](https://i.imgur.com/NX391J6.gif)
