@@ -45,4 +45,4 @@ _Chef's recommendations: Sakura CSS & and Water CSS._
 
 ## Stuck? Need some helpful links?
 Worry not, I got you buddy!  
-A [big list full of stuff](https://github.com/runxel/web-resources) which might be 
+A [big list full of stuff](https://github.com/runxel/web-resources) which might be helpful.
