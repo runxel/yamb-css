@@ -13,6 +13,11 @@ This project evolved from my own small CSS micro-framework: reoccuring basic sni
 
 YAMB is ready to use, but can also act as a solid starting point for your own design adventure. It has everything you need!
 
+<div align="center">
+
+[››› See the demo page ‹‹‹](https://runxel.github.io/yamb-css/)
+</div>
+
 ## Features
 - 🏝 easy to use, since it is mostly<sup id="a1">[1](#f1)</sup> classless
 - 💻 easy to hack on: it's plain simple CSS, no preproccesors involved!<sup id="a2">[2](#f2)</sup> 
