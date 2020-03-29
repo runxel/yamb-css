@@ -40,3 +40,9 @@ _Chef's recommendations: Sakura CSS & and Water CSS._
 
 
 ![How CSS works](https://i.imgur.com/NX391J6.gif)
+
+---
+
+## Stuck? Need some helpful links?
+Worry not, I got you buddy!  
+A [big list full of stuff](https://github.com/runxel/web-resources) which might be 
