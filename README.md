@@ -1,4 +1,4 @@
-<div style="text-align:center">
+<div align="center">
 
 # YAMB CSS
 <small>Yet Another Minimal Barebone CSS Framework</small>
