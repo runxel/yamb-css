@@ -22,13 +22,14 @@ YAMB is ready to use, but can also act as a solid starting point for your own de
 - 🏝 easy to use, since it is mostly<sup id="a1">[1](#f1)</sup> classless
 - 💻 easy to hack on: it's plain simple CSS, no preproccesors involved!<sup id="a2">[2](#f2)</sup> 
 - 🎨 easy to customize, since there are a lot of CSS variables defined
+- 🔋 Batteries included! 
 - ⚡ lightweight at just 10kb minified<sup id="a3">[3](#f3)</sup>
 - 🌚 **dark mode's** built in!
 - 📰 comes with a **print** stylesheet<sup id="a4">[4](#f4)</sup> (yes, really!)
 
 
 <b id="f1">[1]</b> Why "_mostly_" classless?  
-There are some classes, because there are some conventions many people are following. E.g. the whole content is wrapped in a `div` with a class called `page`. I aim to finde the happy medium. [↩](#a1)
+There are some classes, because there are some conventions many people are following. E.g. I expect the whole content is being wrapped in a `div` with a class called `page`. YAMB is aimed at finding the happy medium. [↩](#a1)
 
 <b id="f2">[2]</b> The CSS is still a bit too verbose for my taste, but since this is just plain CSS without any preprocessors it's as good as it can be. It is easy to imagine how compact the CSS could become if a preprocessor with mixins would be used. This is left to be discovered by the reader. [↩](#a2)
 
