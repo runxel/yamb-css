@@ -93,7 +93,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-variant-ligatures: common-ligatures;
 	font-kerning: normal;
-	line-height: 1.5;
+	line-height: 1.6;
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
@@ -145,9 +145,12 @@ ol {
 	list-style-position: inside;
 	padding-left: 1em;
 }
-:not(fieldset) > ul li::marker {
+:not(fieldset) > ul:not(.no-marker) li::marker {
 	color: currentColor;
 	content: '🞄 ';
+}
+ul.no-marker {
+	list-style-type: none;
 }
 
 /* TABLES */
@@ -232,6 +235,11 @@ strong,
 th {
 	font-weight: var(--text-fat);
 }
+h2 { letter-spacing: 0.02em; }
+h3 { letter-spacing: 0.03em; }
+h4 { letter-spacing: 0.04em; }
+h5 { letter-spacing: 0.06em; }
+h6 { letter-spacing: 0.08em; }
 
 small {
 	letter-spacing: 0.025em;
@@ -349,6 +357,10 @@ ins {
 	background-color: var(--accepted);
 }
 
+iframe {
+	border: none;
+}
+
 /* FORMS */
 ::placeholder {
   color: var(--form-placeholder);
@@ -421,9 +433,9 @@ input[type='button'] {
 	padding-right: 30px;
 	padding-left: 30px;
 }
-button:hover,
-input[type='submit']:hover,
-input[type='button']:hover {
+button:not(:disabled):hover,
+input[type='submit']:not(:disabled):hover,
+input[type='button']:not(:disabled):hover {
 	background-color: var(--button-hover-color);
 }
 /* STATES */
@@ -549,9 +561,6 @@ input[type='range']::-moz-range-thumb {
 /* mitigations against Chrome's uglyness */
 input[type="search"] {
 	-webkit-appearance: textfield;
-}
-input[type="search"]:focus {
-	box-shadow: 1px 1px 1px 1px var(--focus-color);
 }
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button {
@@ -756,7 +765,8 @@ nav ul li::marker {
 		filter: invert(100%);
 	}
 
-	nav, aside {
+	nav,
+	aside {
 		display: none;
 	}
 
