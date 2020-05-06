@@ -18,10 +18,21 @@
 			<h1>YAMB CSS</h1>
 			<p>YAMB («Yet Another Minimal Barebone CSS») is a <i>mostly</i> classless, simple CSS which acts a solid starting point for
 				your own work.<br>
-				Project at <a href="https://github.com/runxel/yamb-css">GitHub</a>.</p>
+				Project at <a href="https://github.com/runxel/yamb-css">GitHub</a>.
+			</p>
+			<h2 id="features">Features</h2>
+			<ul class="no-marker">
+				<li>🏝 easy to use, since it is mostly classless</li>
+				<li>💻 easy to hack on: it's plain simple CSS, no preproccesors involved!</li>
+				<li>🎨 easy to customize, since there are a lot of CSS variables defined</li>
+				<li>🔋 Batteries included!</li>
+				<li>⚡ lightweight at just 10kb minified</li>
+				<li>🌚 dark mode's built in!</li>
+				<li>📰 even comes with a print stylesheet (no joke)</li>
+			</ul>
 		</header>
 		<nav role="navigation">
-			<ul>
+			<ul class="no-marker" style="padding-left: 0;">
 				<li><a href="#text">❦ Text</a>: <a href="#text__headings">Headings</a> · <a
 						href="#text__paragraphs">Paragraphs</a> · <a href="#text__blockquotes">Blockquotes</a> · <a
 						href="#text__lists">Lists</a> · <a href="#text__hr">Horizontal rules</a> · <a
@@ -29,8 +40,8 @@
 						href="#text__inline">Inline elements</a> · <a href="#text__details">Details</a> · <a
 						 href="#text__address">Addresses</a></li>
 				<li><a href="#embedded">❦ Embedded content</a>: <a href="#embedded__images">Images</a> · <a
-						href="#embedded__audio">Audio</a> · <a href="#embedded__video">Video</a> · <a
-						href="#embedded__canvas">Canvas</a> · <!-- <a href="#embedded__meter">Meter</a> · <a
+						href="#embedded__audio">Audio</a> · <a href="#embedded__video">Video</a> · <!-- <a
+						href="#embedded__canvas">Canvas</a> · --> <!-- <a href="#embedded__meter">Meter</a> · <a
 						href="#embedded__progress">Progress</a> ·  --><a href="#embedded__svg">Inline SVG</a> · <a
 						href="#embedded__iframe">IFrames</a></li>
 				<li><a href="#forms">❦ Form elements</a>: <a href="#forms__input">Input fields</a> · <a
@@ -52,7 +63,7 @@
 						<h4>Heading 4</h4>
 						<h5>Heading 5</h5>
 						<h6>Heading 6</h6>
-						<small>If you're in need of deeper levels than 3, you're doing it wrong.</small>
+						<small>(If you're in need of deeper levels than 3, you're doing it wrong.)</small>
 					</div>
 					<footer>
 						<p><a href="#top">[Top]</a></p>
@@ -310,13 +321,13 @@
 						<p><a href="#top">[Top]</a></p>
 					</footer>
 				</article>
-				<article id="embedded__canvas">
+				<!-- <article id="embedded__canvas">
 					<h2>Canvas</h2>
 					<div><canvas>canvas</canvas></div>
 					<footer>
 						<p><a href="#top">[Top]</a></p>
 					</footer>
-				</article>
+				</article> -->
 				<!-- <article id="embedded__meter">
 					<h2>Meter</h2>
 					<div><meter value="2" min="0" max="10">2 out of 10</meter></div>
